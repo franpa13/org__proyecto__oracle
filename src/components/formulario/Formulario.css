@@ -1,0 +1,29 @@
+.formulario{
+   
+    display: flex;
+    justify-content: space-around;
+  margin: 80px 50px ;
+  flex-wrap: wrap;
+  gap: 10px;
+  
+}
+.formulario form{
+  
+    background-color: #f7f7f7;
+    box-shadow: 7px 7px 15px rgba(0,0, 0, 0.6);
+    border-radius: 20px;
+    padding: 10px;
+    flex: 1;
+
+}
+.formulario h2{
+    font-size: 30px;
+    font-weight: 400;
+    color: #212121;
+    margin: 10px;
+}
+/* form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
